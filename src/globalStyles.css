@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.links{
+    margin-right: 20px;
+}
+.danger{
+    color: red;
+}
+
+@media screen and (max-width:540px){
+    .sm-grid{
+        flex-direction: column-reverse;
+    }
+    #card-image{
+        width: 100%;
+    }
+    #sm-heading{
+        font-size: 40px;
+    }
+    #sm-para{
+        font-size: 16px;
+    }
+}
